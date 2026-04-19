@@ -38,7 +38,7 @@ _flutter.buildConfig = {"engineRevision":"59aa584fdf100e6c78c785d8a5b565d1de4b48
 
 _flutter.loader.load({
   config: {
-    canvasKitBaseUrl: "/canvaskit/"
+    canvasKitBaseUrl: "canvaskit/"
   },
   onEntrypointLoaded: async function(engineInitializer) {
     const appRunner = await engineInitializer.initializeEngine();
