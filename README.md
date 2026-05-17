@@ -1,6 +1,6 @@
-# SVLJ_Demo (Web Release)
+# Jewellery Dashboard Demo (Web Release)
 
-This repository contains the built web release of the **SVLJ_Demo** application.
+This repository contains the built web release of the **Jewellery Dashboard Demo** application.
 
 ## 🚀 About This Build
 This is a production-ready web release compiled from a Flutter project. It contains all the necessary HTML, CSS, JavaScript, canvaskit, and asset files needed to host the application on any static web hosting service (like GitHub Pages, Netlify, Vercel, or Firebase Hosting).
