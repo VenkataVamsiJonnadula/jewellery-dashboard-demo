@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="/jewellery-dashboard-demo/">
+  <base href="/">
   <script src="pdfjs/pdf.min.js" type="text/javascript"></script>
 
   <meta charset="UTF-8">
@@ -32,6 +32,21 @@
 
   <title>flutter_application_1</title>
   <link rel="manifest" href="manifest.json">
+  <script type="text/javascript">
+    try {
+      if (window.localStorage) { window.localStorage.clear(); }
+      if (window.caches) {
+        caches.keys().then(function(names) {
+          for (let name of names) caches.delete(name);
+        });
+      }
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for (let registration of registrations) { registration.unregister(); }
+        });
+      }
+    } catch(e) {}
+  </script>
 </head>
 <body>
   <!--
